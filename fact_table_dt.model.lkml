@@ -8,4 +8,9 @@ datagroup: fact_table_dt_default_datagroup {
   max_cache_age: "1 hour"
 }
 
+explore: user_fact_table {
+  from: user_fact_table
+}
+
+
 persist_with: fact_table_dt_default_datagroup
